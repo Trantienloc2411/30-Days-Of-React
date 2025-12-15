@@ -354,7 +354,7 @@ const numbers = [0, 3.14, 9.81, 37, 98.6, 100] // array of numbers
 const fruits = ['banana', 'orange', 'mango', 'lemon'] // array of strings, fruits
 const vegetables = ['Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot'] // array of strings, vegetables
 const animalProducts = ['milk', 'meat', 'butter', 'yoghurt'] // array of strings, products
-const webTechs = ['HTML', 'CSS', 'JS', 'React', 'Redux', 'Node', 'MongDB'] // array of web technologies
+const web_techs = ['HTML', 'CSS', 'JS', 'React', 'Redux', 'Node', 'MongDB'] // array of web technologies
 const countries = ['Finland', 'Denmark', 'Sweden', 'Norway', 'Iceland'] // array of strings, countries
 
 // Print the array and its length
@@ -371,8 +371,8 @@ console.log('Number of vegetables:', vegetables.length)
 console.log('Animal products:', animalProducts)
 console.log('Number of animal products:', animalProducts.length)
 
-console.log('Web technologies:', webTechs)
-console.log('Number of web technologies:', webTechs.length)
+console.log('Web technologies:', web_techs)
+console.log('Number of web technologies:', web_techs.length)
 
 console.log('Countries:', countries)
 console.log('Number of countries:', countries.length)
@@ -467,7 +467,7 @@ console.log(numbers[lastIndex]) // -> 100
 ```
 
 ```js
-const webTechs = [
+const web_techs = [
   'HTML',
   'CSS',
   'JavaScript',
@@ -477,13 +477,13 @@ const webTechs = [
   'MongoDB',
 ] // List of web technologies
 
-console.log(webTechs) // all the array items
-console.log(webTechs.length) // => to know the size of the array, which is 7
-console.log(webTechs[0]) //  -> HTML
-console.log(webTechs[6]) //  -> MongoDB
+console.log(web_techs) // all the array items
+console.log(web_techs.length) // => to know the size of the array, which is 7
+console.log(web_techs[0]) //  -> HTML
+console.log(web_techs[6]) //  -> MongoDB
 
-let lastIndex = webTechs.length - 1
-console.log(webTechs[lastIndex]) // -> MongoDB
+let lastIndex = web_techs.length - 1
+console.log(web_techs[lastIndex]) // -> MongoDB
 ```
 
 ```js
@@ -701,7 +701,7 @@ console.log(numbers.includes(0)) // false
 console.log(numbers.includes(1)) // true
 console.log(numbers.includes(6)) // false
 
-const webTechs = [
+const web_techs = [
   'HTML',
   'CSS',
   'JavaScript',
@@ -711,8 +711,8 @@ const webTechs = [
   'MongoDB',
 ] // List of web technologies
 
-console.log(webTechs.includes('Node')) // true
-console.log(webTechs.includes('C')) // false
+console.log(web_techs.includes('Node')) // true
+console.log(web_techs.includes('C')) // false
 ```
 
 ##### Checking array
@@ -755,7 +755,7 @@ console.log(names.join(' ')) //Asabeneh Mathias Elias Brook
 console.log(names.join(', ')) //Asabeneh, Mathias, Elias, Brook
 console.log(names.join(' # ')) //Asabeneh # Mathias # Elias # Brook
 
-const webTechs = [
+const web_techs = [
   'HTML',
   'CSS',
   'JavaScript',
@@ -765,8 +765,8 @@ const webTechs = [
   'MongoDB',
 ] // List of web technologies
 
-console.log(webTechs.join()) // "HTML,CSS,JavaScript,React,Redux,Node,MongoDB"
-console.log(webTechs.join(' # ')) // "HTML # CSS # JavaScript # React # Redux # Node # MongoDB"
+console.log(web_techs.join()) // "HTML,CSS,JavaScript,React,Redux,Node,MongoDB"
+console.log(web_techs.join(' # ')) // "HTML # CSS # JavaScript # React # Redux # Node # MongoDB"
 ```
 
 ##### Slice array elements
@@ -887,7 +887,7 @@ console.log(numbers) // [1, 2, 3, 4, 5]
 sort: arrange array elements in ascending order. Sort takes a call back function, we will see how we use sort with a call back function in the coming sections.
 
 ```js
-const webTechs = [
+const web_techs = [
   'HTML',
   'CSS',
   'JavaScript',
@@ -897,11 +897,11 @@ const webTechs = [
   'MongoDB',
 ]
 
-webTechs.sort()
-console.log(webTechs) // ["CSS", "HTML", "JavaScript", "MongoDB", "Node", "React", "Redux"]
+web_techs.sort()
+console.log(web_techs) // ["CSS", "HTML", "JavaScript", "MongoDB", "Node", "React", "Redux"]
 
-webTechs.reverse() // after sorting we can reverse it
-console.log(webTechs) // ["Redux", "React", "Node", "MongoDB", "JavaScript", "HTML", "CSS"]
+web_techs.reverse() // after sorting we can reverse it
+console.log(web_techs) // ["Redux", "React", "Node", "MongoDB", "JavaScript", "HTML", "CSS"]
 ```
 
 #### Array of arrays
@@ -946,7 +946,7 @@ const countries = [
   'Kenya',
 ]
 
-const webTechs = [
+const web_techs = [
   'HTML',
   'CSS',
   'JavaScript',
@@ -983,7 +983,7 @@ const webTechs = [
 
 ##### Exercise: Level 2
 
-1. Create a separate countries.js file and store the countries array into this file, create a separate file web_techs.js and store the webTechs array into this file. Access both file in main.js file
+1. Create a separate countries.js file and store the countries array into this file, create a separate file web_techs.js and store the web_techs array into this file. Access both file in main.js file
 1. First remove all the punctuations and change the string to array and count the number of words in the array
 
    ```js
@@ -1011,7 +1011,7 @@ const webTechs = [
    - modify Tea to 'Green Tea'
 
 1. In countries array check if 'Ethiopia' exists in the array if it exists print 'ETHIOPIA'. If it does not exist add to the countries list.
-1. In the webTechs array check if Sass exists in the array and if it exists print 'Sass is a CSS preprocess'. If it does not exist add Sass to the array and print the array.
+1. In the web_techs array check if Sass exists in the array and if it exists print 'Sass is a CSS preprocess'. If it does not exist add Sass to the array and print the array.
 1. Concatenate the following two variables and store it in a fullStack variable.
 
    ```js
